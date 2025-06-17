@@ -27,6 +27,8 @@ Suggests:
     testthat,
     knitr,
     rmarkdown
+Remotes:
+    slowkow/proxysnps
 Collate:
     'package.R'
     'names.R'
