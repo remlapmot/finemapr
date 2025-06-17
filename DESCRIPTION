@@ -52,3 +52,4 @@ Collate:
     'zzz.R'
 RoxygenNote: 7.3.2
 VignetteBuilder: knitr
+Encoding: UTF-8
