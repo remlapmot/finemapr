@@ -4,7 +4,6 @@
 #'
 #' @rdname finemaprPackage
 #' @name finemaprPackage
-#' @docType package
 #'
 #' @importFrom utils head write.table
 #'
@@ -17,5 +16,5 @@
 #' @import ggplot2
 #' @import ggrepel
 #' @importFrom cowplot plot_grid
-{}
+"_PACKAGE"
 
