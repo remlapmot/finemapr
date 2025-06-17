@@ -9,6 +9,6 @@ sumstats_bmi <- function()
   url <- "https://data.broadinstitute.org/alkesgroup/sumstats_formatted/PASS_BMI1.sumstats"
 
   read_tsv(url, col_types = cols()) %>%
-    mutate(P = pchisq(CHISQ, df = 1, lower.tail = FALSE)) %>%
+    mutate(P = stats::pchisq(CHISQ, df = 1, lower.tail = FALSE)) %>%
     select(-CHISQ)
 }

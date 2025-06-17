@@ -53,9 +53,9 @@ abf <- function(effect, se, snp = paste0("snp", seq(1, nrow(effect))))
 # @param pi1 the prior probability of a non-null association
 BFDPfunV <- function(thetahat, V, W, pi1)
 {
-  pH0 <- dnorm(thetahat, m = 0, s = sqrt(V))
+  pH0 <- stats::dnorm(thetahat, m = 0, s = sqrt(V))
   postvar <- V + W
-  pH1 <- dnorm(thetahat, m = 0, s = sqrt(postvar))
+  pH1 <- stats::dnorm(thetahat, m = 0, s = sqrt(postvar))
   BF <- pH0/pH1
   
   PO <- (1-pi1) / pi1

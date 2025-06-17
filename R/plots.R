@@ -25,7 +25,7 @@ plot_zscore.Finemapr <- function(x, locus = 1,
   ### data
   tab <- x$tab[[locus]]
   tab <- mutate(tab,
-    pval = pchisq(zscore^2, df = 1, lower.tail = FALSE))
+    pval = stats::pchisq(zscore^2, df = 1, lower.tail = FALSE))
   
   if(!plot_missing) {
     tab <- filter(tab, finemap)

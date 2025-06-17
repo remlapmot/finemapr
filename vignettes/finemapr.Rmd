@@ -104,7 +104,7 @@ ggplot(z1, aes(zscore)) + geom_histogram()
 ```
 
 ```{r plot_pval}
-mutate(z1, pval = pchisq(zscore^2, df = 1, lower.tail = FALSE)) %>%
+mutate(z1, pval = stats::pchisq(zscore^2, df = 1, lower.tail = FALSE)) %>%
   ggplot(aes(pval)) + geom_histogram()
 ```
 
