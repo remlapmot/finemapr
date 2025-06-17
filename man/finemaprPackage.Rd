@@ -2,6 +2,7 @@
 % Please edit documentation in R/package.R
 \docType{package}
 \name{finemaprPackage}
+\alias{-package}
 \alias{finemaprPackage}
 \title{Package finemapr.}
 \description{
