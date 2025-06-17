@@ -17,7 +17,8 @@ Imports:
     cowplot,
     data.table,
     Matrix,
-    scales
+    scales,
+    methods
 Suggests:
     proxysnps,
     RCurl,
