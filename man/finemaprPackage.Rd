@@ -2,9 +2,20 @@
 % Please edit documentation in R/package.R
 \docType{package}
 \name{finemaprPackage}
-\alias{-package}
+\alias{finemapr-package}
 \alias{finemaprPackage}
 \title{Package finemapr.}
 \description{
 R wrapper to fine-mappers.
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/variani/finemapr}
+}
+
+}
+\author{
+\strong{Maintainer}: Andrey Ziyatdinov \email{andrey@example.com}
+
 }
