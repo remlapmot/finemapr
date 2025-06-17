@@ -3,3 +3,4 @@ misc/
 # runs of tools
 run_*/
 
+^\.travis\.yml$
