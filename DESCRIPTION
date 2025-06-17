@@ -16,7 +16,8 @@ Imports:
     ggrepel,
     cowplot,
     data.table,
-    Matrix
+    Matrix,
+    scales
 Suggests:
     proxysnps,
     RCurl,
