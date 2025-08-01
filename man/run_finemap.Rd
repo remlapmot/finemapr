@@ -17,8 +17,9 @@ run_finemap(
 Run FINEMAP.
 }
 \examples{
+\dontrun{
 ex <- example_finemap()
 out <- run_finemap(ex$tab1, ex$ld1, ex$n1, args = "--n-causal-max 3")
 out <- run_finemap(ex$tab1, ex$ld1, ex$n1, args = "--n-causal-max 1")
-
+}
 }
