@@ -2,10 +2,11 @@
 #' Run FINEMAP.
 #'
 #' @examples
+#' \dontrun{
 #' ex <- example_finemap()
 #' out <- finemapr(list(ex$tab1, ex$tab2), list(ex$ld1, ex$ld2), list(ex$n1, ex$n2), args = "--n-causal-max 1")
 #' out <- finemapr(list(ex$tab1, ex$tab2), list(ex$ld1, ex$ld2), list(ex$n1, ex$n2), method = "paintor", args = "-enumerate 1")
-#'
+#' }
 #' @export
 finemapr <- function(tab, ld, n, 
   annot, annotations, 
