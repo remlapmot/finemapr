@@ -2,10 +2,11 @@
 #' Run FINEMAP.
 #'
 #' @examples
+#' \dontrun{
 #' ex <- example_finemap()
 #' out <- run_finemap(ex$tab1, ex$ld1, ex$n1, args = "--n-causal-max 3")
 #' out <- run_finemap(ex$tab1, ex$ld1, ex$n1, args = "--n-causal-max 1")
-#'
+#' }
 #' @export
 run_finemap <- function(tab, ld, n, 
   dir_run = "run_finemap",
