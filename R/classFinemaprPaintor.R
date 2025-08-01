@@ -4,8 +4,6 @@
 #' @rdname FinemaprPaintor
 #'
 #' @exportClass FinemaprPaintor
-
-#' @rdname FinemaprPaintor
 #' @export
 print.FinemaprPaintor <- function(x, ...)
 {

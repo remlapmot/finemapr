@@ -4,12 +4,9 @@
 #' @rdname FinemaprFinemap
 #'
 #' @exportClass FinemaprFinemap
-
 #---------------------
 # Finemapping methods
 #---------------------
-
-#' @rdname FinemaprFinemap
 #' @export
 write_files.FinemaprFinemap <- function(x, ...)
 {
