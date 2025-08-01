@@ -26,8 +26,7 @@ library(dplyr)
 library(ggplot2)
 theme_set(theme_minimal())
 
-library(devtools)
-load_all("~/git/variani/finemapr/")
+library(finemapr)
 ```
 
 # Wakefield's functions

@@ -10,8 +10,7 @@ opts_chunk$set(dev = "png", dev.args = list(type = "cairo"), dpi = 192, fig.path
 ```
 
 ```{r inc, echo = F}
-library(devtools)
-load_all("~/git/variani/finemapr")
+library(finemapr)
 ```
 
 ```{r ex}

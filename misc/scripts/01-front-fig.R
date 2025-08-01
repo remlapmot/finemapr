@@ -1,5 +1,4 @@
-library(devtools)
-load_all("~/git/variani/finemapr")
+library(finemapr)
 
 library(magrittr)
 library(dplyr)  
