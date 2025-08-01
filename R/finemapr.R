@@ -196,6 +196,7 @@ process_ld.Finemapr <- function(x, lds, ...)
   return(x)
 }
 
+#' @export
 process_n.Finemapr <- function(x, ns, ...)
 {
   ### process input

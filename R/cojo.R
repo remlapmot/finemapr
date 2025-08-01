@@ -160,6 +160,7 @@ run_cojo <- function(tab, bed,
   return(out) 
 }
 
+#' @export
 plot.Cojo <- function(x, locus = 1, digits = 1)
 {
   snp_index <- x$cond[[locus]]$snp_index
