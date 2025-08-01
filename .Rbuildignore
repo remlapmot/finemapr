@@ -4,3 +4,5 @@ misc/
 run_*/
 
 ^\.travis\.yml$
+^.*\.Rproj$
+^\.Rproj\.user$

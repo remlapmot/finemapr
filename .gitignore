@@ -14,3 +14,4 @@ inst/doc
 vignettes/*figures/
 
 .Rhistory
+.Rproj.user
