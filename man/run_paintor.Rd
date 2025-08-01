@@ -19,7 +19,8 @@ run_paintor(
 Run Paintor.
 }
 \examples{
+\dontrun{
 ex <- example_finemap()
 out <- run_paintor(ex$tab1, ex$ld1)
-
+}
 }

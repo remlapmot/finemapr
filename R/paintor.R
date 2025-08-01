@@ -2,9 +2,10 @@
 #' Run Paintor.
 #' 
 #' @examples
+#' \dontrun{
 #' ex <- example_finemap()
 #' out <- run_paintor(ex$tab1, ex$ld1)
-#'
+#' }
 #' @export
 run_paintor <- function(tab, ld, n, annot, annotations, 
   dir_run = "run_paintor",
