@@ -1,6 +1,6 @@
-
 #' Run FINEMAP.
-#'
+#' 
+#' @rdname finemapr-fn
 #' @examples
 #' \dontrun{
 #' ex <- example_finemap()
