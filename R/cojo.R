@@ -161,7 +161,7 @@ run_cojo <- function(tab, bed,
 }
 
 #' @export
-plot.Cojo <- function(x, locus = 1, digits = 1)
+plot.Cojo <- function(x, locus = 1, digits = 1, ...)
 {
   snp_index <- x$cond[[locus]]$snp_index
   p <- subset(x$jma, SNP == snp_index , select = "p", drop = TRUE)

@@ -4,23 +4,23 @@
 
 #' @rdname FinemaprPaintor
 #' @export
-filename_zscore.FinemaprPaintor <- function(x, locus = 1) paste0(locus, ".region") 
+filename_zscore.FinemaprPaintor <- function(x, locus = 1, ...) paste0(locus, ".region")
 
 #' @rdname FinemaprPaintor
 #' @export
-filename_ld.FinemaprPaintor <- function(x, locus = 1) paste0(locus, ".region.ld")
+filename_ld.FinemaprPaintor <- function(x, locus = 1, ...) paste0(locus, ".region.ld")
 
 #' @rdname FinemaprPaintor
 #' @export
-filename_annot.FinemaprPaintor <- function(x, locus = 1) paste0(locus, ".region.annotations")
+filename_annot.FinemaprPaintor <- function(x, locus = 1, ...) paste0(locus, ".region.annotations")
 
 #' @rdname FinemaprPaintor
 #' @export
-filename_master.FinemaprPaintor <- function(x) "region.master"
+filename_master.FinemaprPaintor <- function(x, ...) "region.master"
 
 #' @rdname FinemaprPaintor
 #' @export
-filename_snp.FinemaprPaintor <- function(x, locus) paste0(locus, ".region.results")
+filename_snp.FinemaprPaintor <- function(x, locus, ...) paste0(locus, ".region.results")
 
 #--------------------------
 # File names for finemap
@@ -28,28 +28,28 @@ filename_snp.FinemaprPaintor <- function(x, locus) paste0(locus, ".region.result
 
 #' @rdname FinemaprFinemap
 #' @export
-filename_zscore.FinemaprFinemap <- function(x, locus = 1) paste0(locus, ".region.z") 
+filename_zscore.FinemaprFinemap <- function(x, locus = 1, ...) paste0(locus, ".region.z")
 
 #' @rdname FinemaprFinemap
 #' @export
-filename_ld.FinemaprFinemap <- function(x, locus = 1) paste0(locus, ".region.ld")
+filename_ld.FinemaprFinemap <- function(x, locus = 1, ...) paste0(locus, ".region.ld")
 
 #' @rdname FinemaprFinemap
 #' @export
-filename_snp.FinemaprFinemap <- function(x, locus) paste0(locus, ".region.snp")
+filename_snp.FinemaprFinemap <- function(x, locus, ...) paste0(locus, ".region.snp")
 
 #' @rdname FinemaprFinemap
 #' @export
-filename_config.FinemaprFinemap <- function(x, locus) paste0(locus, ".region.config")
+filename_config.FinemaprFinemap <- function(x, locus, ...) paste0(locus, ".region.config")
 
 #' @rdname FinemaprFinemap
 #' @export
-filename_k.FinemaprFinemap <- function(x, locus) paste0(locus, ".region.k")
+filename_k.FinemaprFinemap <- function(x, locus, ...) paste0(locus, ".region.k")
 
 #' @rdname FinemaprFinemap
 #' @export
-filename_log.FinemaprFinemap <- function(x, locus) paste0(locus, ".region.log")
+filename_log.FinemaprFinemap <- function(x, locus, ...) paste0(locus, ".region.log")
 
 #' @rdname FinemaprFinemap
 #' @export
-filename_master.FinemaprFinemap <- function(x) "region.master"
+filename_master.FinemaprFinemap <- function(x, ...) "region.master"
