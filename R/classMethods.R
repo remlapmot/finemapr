@@ -6,8 +6,6 @@
 #'
 #' @name Finemapr
 #' @rdname Finemapr
-#'
-#' @exportClass Finemapr
 
 
 #----------------------

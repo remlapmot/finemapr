@@ -2,8 +2,6 @@
 #'
 #' @name FinemaprFinemap
 #' @rdname FinemaprFinemap
-#'
-#' @exportClass FinemaprFinemap
 #---------------------
 # Finemapping methods
 #---------------------
