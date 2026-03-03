@@ -50,6 +50,6 @@ Collate:
     'finemapr.R'
     'ld.R'
     'zzz.R'
-RoxygenNote: 7.3.2
+RoxygenNote: 7.3.3
 VignetteBuilder: knitr
 Encoding: UTF-8
