@@ -28,9 +28,9 @@
 
 plot_ncausal(x, ...)
 
-print.Finemapr(x, ...)
+\method{print}{Finemapr}(x, ...)
 
-print.Finemapr(x, ...)
+\method{print}{Finemapr}(x, ...)
 
 \method{plot}{Finemapr}(x, ...)
 

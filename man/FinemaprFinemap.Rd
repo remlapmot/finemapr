@@ -39,7 +39,7 @@
 
 \method{collect_results}{FinemaprFinemap}(x, ...)
 
-print.FinemaprFinemap(x, ...)
+\method{print}{FinemaprFinemap}(x, ...)
 
 \method{plot}{FinemaprFinemap}(
   x,

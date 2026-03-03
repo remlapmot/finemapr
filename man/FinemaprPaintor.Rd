@@ -24,7 +24,7 @@
 
 \method{filename_snp}{FinemaprPaintor}(x, locus)
 
-print.FinemaprPaintor(x, ...)
+\method{print}{FinemaprPaintor}(x, ...)
 
 \method{process_annot}{FinemaprPaintor}(x, annots, annotations, ...)
 
