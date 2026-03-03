@@ -18,3 +18,13 @@
 #' @importFrom cowplot plot_grid
 "_PACKAGE"
 
+utils::globalVariables(c(
+  "ABF", "ABFinv", "CHISQ", "ID", "P1_ABF", "SNP",
+  "config", "config_log10bf", "config_prob",
+  "finemap", "label",
+  "ncausal_num", "ncausal_prob",
+  "out_annot", "pos", "pval",
+  "rank_pp", "rank_z",
+  "snp", "snp_log10bf", "snp_prob", "snp_prob_cumsum", "snp_prob_set",
+  "type", "zscore"
+))
