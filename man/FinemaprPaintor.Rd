@@ -14,15 +14,15 @@
 \alias{collect_results.FinemaprPaintor}
 \title{S3 class FinemaprPaintor.}
 \usage{
-\method{filename_zscore}{FinemaprPaintor}(x, locus = 1)
+\method{filename_zscore}{FinemaprPaintor}(x, locus = 1, ...)
 
-\method{filename_ld}{FinemaprPaintor}(x, locus = 1)
+\method{filename_ld}{FinemaprPaintor}(x, locus = 1, ...)
 
-\method{filename_annot}{FinemaprPaintor}(x, locus = 1)
+\method{filename_annot}{FinemaprPaintor}(x, locus = 1, ...)
 
-\method{filename_master}{FinemaprPaintor}(x)
+\method{filename_master}{FinemaprPaintor}(x, ...)
 
-\method{filename_snp}{FinemaprPaintor}(x, locus)
+\method{filename_snp}{FinemaprPaintor}(x, locus, ...)
 
 \method{print}{FinemaprPaintor}(x, ...)
 

@@ -19,19 +19,19 @@
 \alias{plot_snp.FinemaprFinemap}
 \title{S3 class FinemaprFinemap.}
 \usage{
-\method{filename_zscore}{FinemaprFinemap}(x, locus = 1)
+\method{filename_zscore}{FinemaprFinemap}(x, locus = 1, ...)
 
-\method{filename_ld}{FinemaprFinemap}(x, locus = 1)
+\method{filename_ld}{FinemaprFinemap}(x, locus = 1, ...)
 
-\method{filename_snp}{FinemaprFinemap}(x, locus)
+\method{filename_snp}{FinemaprFinemap}(x, locus, ...)
 
-\method{filename_config}{FinemaprFinemap}(x, locus)
+\method{filename_config}{FinemaprFinemap}(x, locus, ...)
 
-\method{filename_k}{FinemaprFinemap}(x, locus)
+\method{filename_k}{FinemaprFinemap}(x, locus, ...)
 
-\method{filename_log}{FinemaprFinemap}(x, locus)
+\method{filename_log}{FinemaprFinemap}(x, locus, ...)
 
-\method{filename_master}{FinemaprFinemap}(x)
+\method{filename_master}{FinemaprFinemap}(x, ...)
 
 \method{write_files}{FinemaprFinemap}(x, ...)
 
